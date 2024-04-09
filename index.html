@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>navn</title>
+</head>
+<body>
+
+<h2>Oppgave 1</h2>
+
+<p>Angi en temperatur og velg enhet:</p>
+
+<input type="number" id="inputTemp">
+<select id="unitSelect">
+  <option value="celsius">Celsius</option>
+  <option value="fahrenheit">Fahrenheit</option>
+</select>
+
+<button id="convertButton">Konverter</button>
+
+<p id="resultat"></p>
+
+<br><br>
+
+<h2>Oppgave 2</h2>
+
+<p>Trykk på knappen for å generere to tilfeldige tall mellom 0 og 10 og sammenligne dem.</p>
+
+<button onclick="sammenlignTall()">Sammenlign Tall</button>
+
+<p id="resultat2"></p>
+
+<br><br>
+
+<h2>Oppgave 3</h2>
+
+<input type="text" id="inputText" placeholder="Enter text...">
+<button onclick="checkPalindrome()">Check Palindrome</button>
+
+<p id="resultat3"></p>
+
+<br><br>
+
+<style>
+    .red {
+      background-color: red;
+    }
+    .blue {
+      background-color: blue;
+    }
+  </style>
+  </head>
+  <body>
+  
+<h2>Oppgave 4</h2>
+
+  <button onclick="makeRed('div1')">Red</button>    
+  <button onclick="makeBlue('div2')">Blue</button>
+  <button onclick="randomColor()">Random</button>
+  
+  <div id="div1" style="width: 50px; height: 50px; margin: 10px;"></div>
+  <div id="div2" style="width: 50px; height: 50px; margin: 10px;"></div>
+  
+
+<h2>Empty Rectangle Drawer</h2>
+
+<p>Enter width and height of the rectangle:</p>
+
+Width: <input type="number" id="widthInput">
+Height: <input type="number" id="heightInput">
+<button onclick="drawRectangle()">Draw Rectangle</button>
+
+<pre id="rectangleOutput"></pre>
+
+<br><br>
+
+<h2>Oppgave 6</h2>
+
+<input type="text" id="colorInput" placeholder="Enter color...">
+<button onclick="changeColor()">Change Color</button>
+<br><br><br><br><br><br>
+<script src="index.js">
+
+</script>
+
+</body>
+</html>
